@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(198, 209, 238);
+}
+
+header h1{
+    font-family:"Arial black", Arial, Helvetica, sans-serif;
+    font-size: 2.4em;
+    text-align: center;
+    text-decoration: underline; 
+    margin-bottom: 90px; 
+}
+
+fieldset input{
+    padding: 10px;
+    width: 70%;
+    margin-top: 10px;
+}
+
+fieldset label{
+    font-size: 1.3em;
+}
+
+section{
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom:0%;
+    width: 50%;
+    margin: auto;
+    background-color: blanchedalmond;
+}
+
+fieldset{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: none;  
+}
+
+#botones{ 
+    display: flex;
+    justify-content: space-around;    
+}
+
+#formulario button{
+    background-color: rgb(190, 106, 106);
+    color: #fff;
+    padding: 10px;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+#filtrados{
+    margin: 20px;
+}

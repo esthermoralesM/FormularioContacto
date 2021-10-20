@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Agencia de viajes</h1>
+    </header>
+
+    <section id="formulario">
+        <fieldset class="colData">
+            <label for="nombre">Introduce tu nombre:</label>
+            <input type="text"
+                placeholder="Introduce tu nombre"
+                id="nombre"
+                name="nombrePersona">
+        </fieldset>
+
+        <fieldset class="colDataForm">
+            <label for="destino">Destino a visitar:</label>
+            <input type="text"
+                placeholder="Indica el destino"
+                id="destino"
+                name="destinoViaje">
+        </fieldset>
+        <div id="botones">
+        <button type="submit" onclick="enviar()">Enviar</button>
+        <button type="button" onclick="filtrar()">Filtrar</button>
+       </div>
+    </section>
+   
+    <div id="filtrados"></div>
+    <script src="./form.js"></script>
+</body>
+</html>
