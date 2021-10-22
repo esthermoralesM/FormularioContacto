@@ -13,6 +13,7 @@
     </header>
 
     <section id="formulario">
+        <form>
         <fieldset class="colData">
             <label for="nombre">Introduce tu nombre:</label>
             <input type="text"
@@ -29,9 +30,10 @@
                 name="destinoViaje">
         </fieldset>
         <div id="botones">
-        <button type="submit" onclick="enviar()">Enviar</button>
+        <button type="reset" onclick="enviar()">Enviar</button>
         <button type="button" onclick="filtrar()">Filtrar</button>
        </div>
+    </form>
     </section>
    
     <div id="filtrados"></div>
